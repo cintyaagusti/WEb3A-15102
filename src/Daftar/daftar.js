@@ -1,5 +1,6 @@
-/*import React from 'react';
-import './App.css';
+import React, { Component } from 'react'; //import dari react biasa
+//import './App.css';
+import '../Daftar/daftar.css' 
 import { Carousel } from 'antd';
 import { Card, Col, Row } from 'antd';
 import { Avatar } from 'antd';
@@ -7,14 +8,13 @@ import { Layout, Menu, Breadcrumb } from 'antd';
 import { UserOutlined, HomeOutlined, FormOutlined } from '@ant-design/icons';
 import { List } from 'antd';
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
-import Tutor from './container/Tutor';
+//import Tutor from './container/Tutor';
+import Navbar from '../common/layout/navbar-beranda' 
+import ButtonBeranda from '../common/button/button-beranda'; 
 
 const { SubMenu } = Menu;
 const { Header, Footer, Sider, Content } = Layout;
 const { Meta } = Card;
-
-
-function App() {
 
   const data = [
     {
@@ -50,22 +50,10 @@ function App() {
   ];
 
 
-  return(
-
+class Daftar extends Component{
+    render(){
+        return (
       <Layout>
-        <Header className="header">
-          <div className="logo" />
-            <Menu
-              theme="dark"
-              mode="horizontal"
-              defaultSelectedKeys={['2']}
-            >
-              <Menu.Item key="1">Beranda</Menu.Item>
-              <Menu.Item key="2">Kontak</Menu.Item>
-              <Menu.Item key="3">Tentang</Menu.Item>
-            </Menu>
-        </Header>
-
         <Layout>
           <Sider width={200} className="site-layout-background">
             <Menu
@@ -118,12 +106,6 @@ function App() {
           </Menu>
         </Sider>
 
-        <Layout style={{ padding: '0 24px 24px' }}>
-          <Breadcrumb style={{ margin: '16px 0' }}>
-            <Breadcrumb.Item>Beranda</Breadcrumb.Item>
-            <Breadcrumb.Item>Kelas</Breadcrumb.Item>
-          </Breadcrumb>
-
             <Content
                 className="site-layout-background"
                 style={{
@@ -132,21 +114,6 @@ function App() {
                   minHeight: 280,
                 }}
               >
-                <Carousel autoplay>
-                      <div>
-                        <h1>Welcome to NeoZone City</h1>
-                      </div>
-                      <div>
-                        <h1>Rumah Belajar Bahasa Korea No.1 di Indonesia</h1>
-                      </div>
-                      <div>
-                        <h1>Memberikan Pengalaman Yang Sangat Menarik</h1>
-                      </div>
-                      <div>
-                        <h1>Bersama Tutor Asli Dari Korea</h1>
-                      </div>
-                </Carousel>
-
                     <div className="site-card">
                       <Row gutter={10} justify="center">
                         <Col span={5}>
@@ -215,7 +182,7 @@ function App() {
                             >
                             <Meta title="Jaehyun Jung" description="@_jeongjaehyun" />
                           
-                                <Tutor />
+                               
                            
                           </Card>
                         </Col>
@@ -227,7 +194,7 @@ function App() {
                               >
                               <Meta title="Doyoung Kim" description="@bunny_doyoung"/>
 
-                              <Tutor />
+
 
                             </Card>
                         </Col>
@@ -239,7 +206,7 @@ function App() {
                               >
                               <Meta title="Taeyong Lee" description="@tiwaylee" />
 
-                              <Tutor />
+                              
 
                             </Card>
                         </Col>
@@ -247,41 +214,15 @@ function App() {
                     </div>
               </Content>
             </Layout>
-
-      </Layout>
-
+          
       <Footer style={{ textAlign: 'center' }}>design ©2020 created by cintyaaakim</Footer>
 
     </Layout>
 
   );
+                      }
+                    }
+                
 
-}
   
-export default App;
-*/
-
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {BrowserRouter} from "react-router-dom";
-import Navbar from './common/layout/navbar-beranda';
-import Routing from './common/router/router'
-
-class App extends React.Component {
-  
-
-  render(){
-    return (
-      <div className="App">
-        <Navbar/>
-        <Routing/>
-      </div>
-    );
-  }
-  
-}
-
-export default App;
-  
-      
+export default Daftar;
