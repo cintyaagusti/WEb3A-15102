@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/WEB3A-15102-CINTYA-REACT/static/css/main.34b6580d.chunk.css",
+    "main.js": "/WEB3A-15102-CINTYA-REACT/static/js/main.73033087.chunk.js",
+    "main.js.map": "/WEB3A-15102-CINTYA-REACT/static/js/main.73033087.chunk.js.map",
+    "runtime-main.js": "/WEB3A-15102-CINTYA-REACT/static/js/runtime-main.68b8fc78.js",
+    "runtime-main.js.map": "/WEB3A-15102-CINTYA-REACT/static/js/runtime-main.68b8fc78.js.map",
+    "static/css/2.1bd2ab2f.chunk.css": "/WEB3A-15102-CINTYA-REACT/static/css/2.1bd2ab2f.chunk.css",
+    "static/js/2.49dd5a23.chunk.js": "/WEB3A-15102-CINTYA-REACT/static/js/2.49dd5a23.chunk.js",
+    "static/js/2.49dd5a23.chunk.js.map": "/WEB3A-15102-CINTYA-REACT/static/js/2.49dd5a23.chunk.js.map",
+    "index.html": "/WEB3A-15102-CINTYA-REACT/index.html",
+    "precache-manifest.eb08c934b1866cdd6e9e0e47872f672e.js": "/WEB3A-15102-CINTYA-REACT/precache-manifest.eb08c934b1866cdd6e9e0e47872f672e.js",
+    "service-worker.js": "/WEB3A-15102-CINTYA-REACT/service-worker.js",
+    "static/css/2.1bd2ab2f.chunk.css.map": "/WEB3A-15102-CINTYA-REACT/static/css/2.1bd2ab2f.chunk.css.map",
+    "static/css/main.34b6580d.chunk.css.map": "/WEB3A-15102-CINTYA-REACT/static/css/main.34b6580d.chunk.css.map",
+    "static/js/2.49dd5a23.chunk.js.LICENSE.txt": "/WEB3A-15102-CINTYA-REACT/static/js/2.49dd5a23.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68b8fc78.js",
+    "static/css/2.1bd2ab2f.chunk.css",
+    "static/js/2.49dd5a23.chunk.js",
+    "static/css/main.34b6580d.chunk.css",
+    "static/js/main.73033087.chunk.js"
+  ]
+}
