@@ -8,7 +8,7 @@ import { Layout, Menu, Breadcrumb } from 'antd';
 import { UserOutlined, HomeOutlined, FormOutlined } from '@ant-design/icons';
 import { List } from 'antd';
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
-//import Tutor from './container/Tutor';
+import Tutor from '../container/Tutor';
 import Navbar from '../common/layout/navbar-beranda' 
 import ButtonBeranda from '../common/button/button-beranda'; 
 
@@ -182,7 +182,7 @@ class Daftar extends Component{
                             >
                             <Meta title="Jaehyun Jung" description="@_jeongjaehyun" />
                           
-                               
+                            <Tutor/>  
                            
                           </Card>
                         </Col>
@@ -194,7 +194,7 @@ class Daftar extends Component{
                               >
                               <Meta title="Doyoung Kim" description="@bunny_doyoung"/>
 
-
+                              <Tutor/> 
 
                             </Card>
                         </Col>
@@ -206,7 +206,7 @@ class Daftar extends Component{
                               >
                               <Meta title="Taeyong Lee" description="@tiwaylee" />
 
-                              
+                              <Tutor/> 
 
                             </Card>
                         </Col>

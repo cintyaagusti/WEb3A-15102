@@ -45,11 +45,11 @@ class Navbar extends Component {
         </SubMenu>
         <Menu.Item key="mail">
           <PhoneOutlined />
-            Kontak 
+            <a href="https://twitter.com/NCTsmtown_127">Kontak </a>
         </Menu.Item>
         <Menu.Item key="app">
         <QuestionCircleOutlined />
-          Tentang
+          <a href="https://www.youtube.com/channel/UCG-coSVp89xFSWN4pbVL53w">Tentang</a>
         </Menu.Item>
       
       
