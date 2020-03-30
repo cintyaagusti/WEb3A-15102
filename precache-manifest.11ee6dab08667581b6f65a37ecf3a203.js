@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b828434c50c23d01dabcdab3adb9d35",
+    "revision": "18fd5fa0ef9beed4dcc066fed6b56832",
     "url": "/WEB3A-15102-CINTYA-REACT/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WEB3A-15102-CINTYA-REACT/static/css/2.1bd2ab2f.chunk.css"
   },
   {
-    "revision": "8c9eb2773da4ea61c2ef",
+    "revision": "1218518701c68c90e16f",
     "url": "/WEB3A-15102-CINTYA-REACT/static/css/main.34b6580d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WEB3A-15102-CINTYA-REACT/static/js/2.49dd5a23.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c9eb2773da4ea61c2ef",
-    "url": "/WEB3A-15102-CINTYA-REACT/static/js/main.73033087.chunk.js"
+    "revision": "1218518701c68c90e16f",
+    "url": "/WEB3A-15102-CINTYA-REACT/static/js/main.0a3804a5.chunk.js"
   },
   {
     "revision": "387dabef651bef574893",

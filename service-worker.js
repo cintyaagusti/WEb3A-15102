@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/WEB3A-15102-CINTYA-REACT/precache-manifest.eb08c934b1866cdd6e9e0e47872f672e.js"
+  "/WEB3A-15102-CINTYA-REACT/precache-manifest.11ee6dab08667581b6f65a37ecf3a203.js"
 );
 
 self.addEventListener('message', (event) => {
